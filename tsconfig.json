@@ -1,0 +1,12 @@
+{
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "CommonJS",
+    "target": "ES5",
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ]
+  }
+}

@@ -4,6 +4,7 @@
   "description": "Simple Mock Server based on Sandbox Worker CLI and Swagger Codegen.",
   "main": "src/main.ts",
   "scripts": {
+    "build": "bash scripts/build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/saigonwithlove/sandcastle/issues"
   },
-  "homepage": "https://github.com/saigonwithlove/sandcastle#readme"
+  "homepage": "https://github.com/saigonwithlove/sandcastle#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
