@@ -1,0 +1,24 @@
+{
+  "name": "sandcastle",
+  "version": "0.1.0",
+  "description": "Simple Mock Server based on Sandbox Worker CLI and Swagger Codegen.",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saigonwithlove/sandcastle.git"
+  },
+  "keywords": [
+    "sandbox",
+    "mock",
+    "openapi"
+  ],
+  "author": "saigonwithlove",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saigonwithlove/sandcastle/issues"
+  },
+  "homepage": "https://github.com/saigonwithlove/sandcastle#readme"
+}
