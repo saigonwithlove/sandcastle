@@ -5,6 +5,7 @@
   "main": "src/main.ts",
   "scripts": {
     "build": "bash scripts/build.sh",
+    "serve": "bash scripts/serve.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/saigonwithlove/sandcastle#readme",
   "devDependencies": {
+    "nodemon": "^2.0.12",
     "typescript": "^4.3.5"
   }
 }
