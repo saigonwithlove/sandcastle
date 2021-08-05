@@ -22,4 +22,4 @@ fi
 
 cd $PROJECT_DIRECTORY
 npx nodemon --ext ts --watch src --exec "npx tsc --build --incremental && sed -i '' '/exports.*__esModule/d' build/main.js" &
-java -jar "$SANDBOX_CLI" --base="$BASE_DIRECTORY" --metadataPort=8099 --port=8090
+java -Dapp.worker.port=8090 -jar "$SANDBOX_CLI" --base="$BASE_DIRECTORY" --metadataPort=8099 --port=8090
